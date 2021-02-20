@@ -1,16 +1,18 @@
 # klipper Config
 
-#### BigTreeTech SKR 1.4 
-#### TwoTrees Sapphire pro 
-#### RPI as secondary MCU
+* BigTreeTech SKR 1.4 
+* TwoTrees Sapphire pro 
+* RPI as secondary MCU
 
 
 
-Configure with 3d touch see Bltouch offsets
 
-NB: Extruder is running in Direct Drive configuration
 
-## SKR to PI serial UART connection using GPIO
+Configured with 3d touch see Bltouch offsets
+
+Note: Extruder is running in Direct Drive configuration
+
+### SKR to PI serial UART connection using GPIO
 
 [See vid here for wiring](https://www.youtube.com/watch?v=AtW3GqkKUz8-Q&t=14m39s)
 
