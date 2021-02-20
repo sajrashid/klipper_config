@@ -6,6 +6,9 @@
 
 
 
+Configure with 3d touch see Bltouch offsets
+
+NB: Extruder is running in Direct Drive configuration
 
 ## SKR to PI serial UART connection using GPIO
 
