@@ -10,22 +10,22 @@ Section below SKR to PI serial UART connection
 
 
   Software Config
-  > * Swapping ports used by GPIO and Bluetooth
-  > * `sudo nano /boot/config.txt` & append `dtoverlay=pi3-miniuart-bt`
-  > * Disable the serial console
-  > * `sudo nano /boot/cmdline.txt` Look for following string (text) and delete `console=serial0,115200`
+  * Swapping ports used by GPIO and Bluetooth
+  * `sudo nano /boot/config.txt` & append `dtoverlay=pi3-miniuart-bt`
+  * Disable the serial console
+  * `sudo nano /boot/cmdline.txt` Look for following string (text) and delete `console=serial0,115200`
 
   Raspi-config stuff
-  > * `sudo raspi-config`
-  > * Go to 'Interfacing Options'
-  > * Then P6 - Serial
-  > * Then No
-  > * Then Yes
-  > * Then go down to finish and reboot.
+  * `sudo raspi-config`
+  * Go to 'Interfacing Options'
+  * Then P6 - Serial
+  * Then No
+  * Then Yes
+  * Then go down to finish and reboot.
 
   Rebuild your Klipper MCU firmware
-  > * unselect "Use USB for communication (instead of serial). 
-  > * Flash updated firmware to your board
+  * unselect "Use USB for communication (instead of serial). 
+  * Flash updated firmware to your board
 
   Update your printer.cfg:
   * serial: /dev/ttyAMA0
