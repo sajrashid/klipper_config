@@ -1,16 +1,20 @@
 # klipper Config
 
+##Hardware
+
 * BigTreeTech SKR 1.4 
 * TwoTrees Sapphire pro 
 * RPI as secondary MCU
 
+###Software
 
+* [Klipper](https://github.com/KevinOConnor/klipper)
+* [Fluidd](https://github.com/cadriel/fluidd), 
+* [Moonraker](https://github.com/Arksine/moonraker)
 
+Klipper, Fluidd & Moonraker
 
-
-Configured with 3d touch see Bltouch offsets
-
-Note: Extruder is running in Direct Drive configuration
+> Sapphire Pro all restrtrictions removed, max acclearation 4500mm/s , bed at 235mm (additional negative offsets for y axis), properly centered bed configured with 3d touch see Bltouch offsets & mesh bed levelling sections, please note: Extruder is running in direct drive mode
 
 ### SKR to PI serial UART connection using GPIO
 
