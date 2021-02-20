@@ -25,7 +25,7 @@ Software Config
 > * Disable the serial console
 > * `sudo nano /boot/cmdline.txt` Look for following string (text) and delete `console=serial0,115200`
 
-> Raspi-config stuff
+Raspi-config stuff
 > * `sudo raspi-config`
 > * Go to 'Interfacing Options'
 > * Then P6 - Serial
@@ -33,14 +33,14 @@ Software Config
 > * Then Yes
 > * Then go down to finish and reboot.
 
-> Rebuild your Klipper MCU firmware
+Rebuild your Klipper MCU firmware
 > * unselect "Use USB for communication (instead of serial). 
 > * Flash updated firmware to your board
 
-> Update your printer.cfg:
+Update your printer.cfg:
 * serial: /dev/ttyAMA0
 
-> useful python scripts
+Useful python scripts
 [See vhere for additional RPI scripts ](https://github.com/sajrashid/RpiPythonScripts)
 
 
