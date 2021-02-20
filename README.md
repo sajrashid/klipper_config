@@ -5,7 +5,7 @@
 
 ##### Section below only applies if using SKR to PI serial UART connection 
 
-Using GPIO [See vid here for wiring](https://www.youtube.com/watch?v=AtW3GqkKUz8-Q&t=14m39s) Connect RX , TX GND pins from TFT header to PI UART GPIO pins 14 & 15 **ensuring RX & TX are crossed**, see here for the [PI UART PINOUT](https://pinout.xyz/pinout/pin8_gpio14). To power the PI from the printers connect 5v to the Pin 2 on the PI
+Using GPIO [See vid here for wiring](https://www.youtube.com/watch?v=AtW3GqkKUz8-Q&t=14m39s) Connect RX , TX & GND pins from TFT header to PI UART GPIO pins 14 & 15 and any Gnd pin **ensuring RX & TX are crossed**, see here for the [PI UART PINOUT](https://pinout.xyz/pinout/pin8_gpio14). To power the PI from the SKR connect 5v to the Pin 2 on the PI
   
   **Software Config**
   * Swapping ports used by GPIO and Bluetooth
@@ -29,6 +29,6 @@ Using GPIO [See vid here for wiring](https://www.youtube.com/watch?v=AtW3GqkKUz8
   * *serial: /dev/ttyAMA0*
 
   Useful python scripts
-  [See vhere for additional RPI scripts ](https://github.com/sajrashid/RpiPythonScripts)
+  [See here for additional RPI scripts ](https://github.com/sajrashid/RpiPythonScripts)
 
 
