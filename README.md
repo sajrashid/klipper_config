@@ -1,13 +1,8 @@
 # klipper Config
 
-### Hardware
-
 * BigTreeTech SKR 1.4 
 * TwoTrees Sapphire pro 
 * RPI as secondary MCU
-
-### Software
-
 * [Klipper](https://github.com/KevinOConnor/klipper)
 * [Fluidd](https://github.com/cadriel/fluidd), 
 * [Moonraker](https://github.com/Arksine/moonraker)
