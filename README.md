@@ -36,8 +36,8 @@ SKR to PI serial UART connection
 * Then go down to finish and reboot.
 
 > Rebuild your Klipper MCU firmware
-* unselect "Use USB for communication (instead of serial). 
-* Flash updated firmware to your board
+> * unselect "Use USB for communication (instead of serial). 
+> * Flash updated firmware to your board
 
 #### Update your printer.cfg:
 
