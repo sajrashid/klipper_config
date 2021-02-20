@@ -16,15 +16,7 @@ Klipper, Fluidd & Moonraker
 
 > Sapphire Pro all restrtrictions removed, max acclearation 4500mm/s , bed at 235mm (additional negative offsets for y axis), properly centered bed configured with 3d touch see Bltouch offsets & mesh bed levelling sections, please note: Extruder is running in direct drive mode
 
-### SKR to PI serial UART connection using GPIO
-
-[See vid here for wiring](https://www.youtube.com/watch?v=AtW3GqkKUz8-Q&t=14m39s)
-
-Connect RX , TX GND pins from TFT header to PI UART GPIO pins 14 & 15 ensure RX & TX are crossed!!!
-
-[PI UART PINOUT](https://pinout.xyz/pinout/pin8_gpio14)
-
-To power the PI from the printers connect 5v to the Pin 2 on the PI
+> SKR to PI serial UART connection using GPIO [See vid here for wiring](https://www.youtube.com/watch?v=AtW3GqkKUz8-Q&t=14m39s) Connect RX , TX GND pins from TFT header to PI UART GPIO pins 14 & 15 ensuring RX & TX are crossed, see here for the [PI UART PINOUT](https://pinout.xyz/pinout/pin8_gpio14). To power the PI from the printers connect 5v to the Pin 2 on the PI
 
 ### Software Config
 
