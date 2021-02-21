@@ -10,7 +10,7 @@
 **Set-up RPI as secondary MCU**
 * `cd ~/klipper/`
 * `make menuconfig`
-* Select linux micro-controller 
+* Select `linux micro-controller`
 * `make`
 
 ##### Section below only applies if using SKR to PI serial UART connection 
@@ -25,20 +25,20 @@ Using GPIO [See vid here for wiring](https://www.youtube.com/watch?v=AtW3GqkKUz8
 
   **Pi serial config**
   * `sudo raspi-config`
-  * select *Interfacing Options*
-  * *P6 - Serial*
-  * *No*
-  * *Yes*
-  * Finish and reboot.
+  * select `*Interfacing Options*`
+  * `*P6 - Serial*`
+  * `*No*`
+  * `*Yes*`
+  * Exit and reboot.
 
   Rebuild your Klipper MCU firmware
-  * unselect Use *USB for communication* (instead of serial)
+  * unselect Use `*USB for communication*` (instead of serial)
   * Flash updated firmware to your board
 
   Update your printer.cfg:
   * *`serial: /dev/ttyAMA0`*
 
-  Useful python scripts
+  Related python scripts
   [See here for additional RPI scripts ](https://github.com/sajrashid/RpiPythonScripts)
 
 
