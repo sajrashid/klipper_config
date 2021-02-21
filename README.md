@@ -13,6 +13,15 @@
 * Select `linux micro-controller`
 * `make`
 
+**Calibrate Z-offset**
+* `PROBE`
+* Place a piece of paper under the nozzle
+* `PROBE_CALIBRATE`
+* `TESTZ Z=-.5` (moves nozzle 0.5 closer to the paper/bed)
+* `ACCEPT` once correct offset
+* `SAVE_CONFIG` will restart the MCU
+
+
 ##### Section below only applies if using SKR to PI serial UART connection 
 
 Using GPIO [See vid here for wiring](https://www.youtube.com/watch?v=AtW3GqkKUz8-Q&t=14m39s) Connect RX , TX & GND pins from TFT header to PI UART GPIO pins 14 & 15 and any Gnd pin **ensuring RX & TX are crossed**, see here for the [PI UART PINOUT](https://pinout.xyz/pinout/pin8_gpio14). To power the PI from the SKR connect 5v to Pin 2 on the PI
