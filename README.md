@@ -5,7 +5,7 @@
 
 **Get USB Id**
 * `ls /dev/serial/by-id/*`
-* update the printer.cfg with the output, ie:*serial:/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0*
+* update the printer.cfg with the output, eg: *serial:/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0*
 
 **Set-up RPI as secondary MCU**
 * `cd ~/klipper/`
