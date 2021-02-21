@@ -36,7 +36,7 @@ Using GPIO [See vid here for wiring](https://www.youtube.com/watch?v=AtW3GqkKUz8
   * Flash updated firmware to your board
 
   Update your printer.cfg:
-  * *serial: /dev/ttyAMA0*
+  * *'serial: /dev/ttyAMA0'*
 
   Useful python scripts
   [See here for additional RPI scripts ](https://github.com/sajrashid/RpiPythonScripts)
