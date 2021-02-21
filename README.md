@@ -8,21 +8,6 @@
 * update the printer.cfg with the output, eg: *`serial:/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0`*
 
 **Set-up RPI as secondary MCU**
-
-
-
-
-cd ~/klipper/
-make menuconfig
-To build and install the new micro-controller code, run:
-
-sudo service klipper stop
-make flash
-sudo service klipper start
-If klippy.log reports a “Permission denied” error when attempting to connect to /tmp/klipper_host_mcu then you need to add your user to the tty group. The following command will add the “pi” user to the tty group:
-
-sudo usermod -a -G tty pi
-
 * Install the rc script
 * `cd ~/klipper/`
 * `sudo cp "./scripts/klipper-mcu-start.sh" /etc/init.d/klipper_mcu`
