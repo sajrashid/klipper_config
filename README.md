@@ -1,7 +1,17 @@
 # klipper Config
 
 > Sapphire Pro using **BigTreeTech SKR 1.4** & the RPI as a secondary MCU configured with 3d touch see Bltouch offsets & mesh bed levelling sections, please note: Extruder is running in direct drive mode. configured with [Klipper](https://github.com/KevinOConnor/klipper), [Fluidd](https://github.com/cadriel/fluidd) & [Moonraker](https://github.com/Arksine/moonraker)
+> 
 
+**Get USB Id**
+* `ls /dev/serial/by-id/*`
+* update the printer.cfg with the output, ie:*serial:/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0*
+
+**Set-up RPI as secondary MCU**
+* `cd ~/klipper/`
+* `make menuconfig`
+* Select linux micro-controller 
+* `make`
 
 ##### Section below only applies if using SKR to PI serial UART connection 
 
